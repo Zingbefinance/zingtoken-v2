@@ -7,18 +7,22 @@ const WalletMultiButton = dynamic(
     import("@solana/wallet-adapter-react-ui").then(
       (mod) => mod.WalletMultiButton
     ),
-  { ssr: false }
+  {
+    ssr: false,
+  }
 );
 
 export default function Navbar() {
   return (
-    <nav className="sticky top-0 z-50 bg-black/80 backdrop-blur-md border-b border-green-500">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+    <nav className="sticky top-0 z-50 bg-black/90 backdrop-blur-lg border-b border-green-500">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-6 py-4">
 
-        <h1 className="text-3xl font-extrabold text-green-400 tracking-wide">
+        {/* Logo */}
+        <h1 className="text-2xl md:text-3xl font-extrabold text-green-400">
           ZING TOKEN
         </h1>
 
+        {/* Navigation Desktop */}
         <ul className="hidden lg:flex items-center gap-8 text-gray-300 font-medium">
           <li>
             <a href="#home" className="hover:text-green-400 transition">
@@ -51,7 +55,11 @@ export default function Navbar() {
           </li>
         </ul>
 
-        <WalletMultiButton />
+        {/* Wallet */}
+        <div className="wallet-button">
+          <WalletMultiButton />
+        </div>
+
       </div>
     </nav>
   );
