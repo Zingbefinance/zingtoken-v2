@@ -1,4 +1,8 @@
 "use client";
+
+import AnnouncementBar from "@/components/AnnouncementBar";
+import Transactions from "@/components/Transactions";
+import LiveStats from "@/components/LiveStats";
 import Stats from "@/components/Stats";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
@@ -6,7 +10,10 @@ import Navbar from "../components/Navbar";
 export default function Home() {
   return (
     <>
+  <AnnouncementBar />
+    
       <Navbar />
+      
 
       <main className="bg-gray-900 text-white">
       <div className="min-h-screen flex flex-col items-center justify-center text-center">  
@@ -32,10 +39,14 @@ The Future of Web3 Finance on Solana
   className="inline-block mt-8 px-8 py-3 bg-green-500 text-black font-bold rounded-lg hover:bg-green-400 transition"
 >
   Buy ZING TOKEN
-</a>       
-<button className="mt-4 ml-4 px-8 py-3 border border-green-500 text-green-400 font-bold rounded-lg">
-Whitepaper
-</button>  
+</a>
+ <a
+  href="/whitepaper.pdf"
+  target="_blank"
+  className="mt-4 ml-4 inline-block px-8 py-3 border border-green-500 text-green-400 font-bold rounded-lg hover:bg-green-500 hover:text-black transition"
+>
+  Whitepaper
+</a>      
 
         </div>
       </main><section className="bg-black text-white py-24 px-6">
@@ -128,7 +139,9 @@ Whitepaper
 
   </div>
 </section>
-<Stats />
+
+<LiveStats />
+
 
 
 <section id="roadmap" className="bg-black text-white py-24 px-6">
@@ -364,7 +377,7 @@ Whitepaper
  <section id="home" className="bg-gray-900 text-white py-24 px-6">
   <div className="max-w-4xl mx-auto text-center">
     <h2 className="text-5xl font-bold text-green-400 mb-8">
-      Official Contract Address
+      
     </h2>
 
     <div className="bg-black border border-green-500 rounded-xl p-6">
@@ -385,7 +398,7 @@ Whitepaper
   <div className="max-w-6xl mx-auto">
 
     <h2 className="text-5xl font-bold text-center text-green-400 mb-16">
-      How to Buy ZING TOKEN
+      
     </h2>
 
     <div className="grid md:grid-cols-4 gap-8">
@@ -426,104 +439,64 @@ Whitepaper
 
   </div>
 </section>
-<section id="ecosystem" className="bg-gray-900 text-white py-24 px-6">
-  <div className="max-w-6xl mx-auto text-center">
+<footer className="bg-black border-t border-green-500 py-12 text-cent"></footer>
 
-    <h2 className="text-5xl font-bold text-green-400 mb-12">
-      Partners & Ecosystem
-    </h2>
+  <h2 className="text-3xl font-bold text-green-400">
+    ZING TOKEN
+  </h2>
 
-    <p className="text-gray-300 mb-12 text-xl">
-      ZING TOKEN is building on the Solana ecosystem and aims to integrate with leading Web3 platforms.
-    </p>
+  <p className="text-gray-400 mt-3">
+    The Future of Web3 Finance on Solana
+  </p>
 
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+  <div className="flex flex-wrap justify-center gap-4 mt-10">
 
-      <div className="border border-green-500 rounded-xl p-8">
-        <h3 className="text-2xl font-bold text-green-400">
-          Solana
-        </h3>
-      </div>
+    <a
+      href="https://t.me/Zing_toke"
+      target="_blank"
+      className="border border-green-500 px-6 py-3 rounded-lg min-w-[220px] text-center hover:bg-green-500 hover:text-black transition"
+    >
+      📄 Whitepaper
+    </a>
 
-      <div className="border border-green-500 rounded-xl p-8">
-        <h3 className="text-2xl font-bold text-green-400">
-          Raydium
-        </h3>
-      </div>
+    <a
+      href="https://t.me/Zingbefinanc"
+      target="_blank"
+     className="border border-green-500 px-6 py-3 rounded-lg min-w-[220px] text-center hover:bg-green-500 hover:text-black transition" 
+    >
+      📢 Telegram Channel
+    </a>
 
-      <div className="border border-green-500 rounded-xl p-8">
-        <h3 className="text-2xl font-bold text-green-400">
-          Phantom
-        </h3>
-      </div>
+    <a
+      href="https://t.me/Zing_toke"
+      target="_blank"
+     className="border border-green-500 px-6 py-3 rounded-lg min-w-[220px] text-center hover:bg-green-500 hover:text-black transition" 
+    >
+      👥 Telegram Group
+    </a>
 
-      <div className="border border-green-500 rounded-xl p-8">
-        <h3 className="text-2xl font-bold text-green-400">
-          CoinGecko
-        </h3>
-      </div>
+    <a
+      href="https://x.com/GogbeZingbe"
+      target="_blank"
+      className="border border-green-500 px-6 py-3 rounded-lg min-w-[220px] text-center hover:bg-green-500 hover:text-black transition"
+    >
+      🐦 X (Twitter)
+    </a>
 
-    </div>
+ <a
+  href="https://youtube.com/@zingbefinance703?si=sgdpXhZm25XkXha-"
+  target="_blank"
+  className="border border-green-500 px-6 py-3 rounded-lg hover:bg-green-500 hover:text-black transition"
+>
+  ▶️ YouTube
+</a> 
+</div>
 
-    <p className="mt-12 text-gray-500">
-      More integrations coming soon...
-    </p>
-
-  </div>
-</section>
-<section id="questions" className="bg-black text-white py-24 px-6">
-  <div className="max-w-5xl mx-auto">
-    <h2 className="text-5xl font-bold text-green-400 text-center mb-12">
-      Frequently Asked Questions
-    </h2>
-
-    <div className="space-y-6">
-
-      <div className="bg-gray-900 border border-green-500 rounded-xl p-6">
-        <h3 className="text-xl font-bold text-green-400">
-          What blockchain is ZING TOKEN built on?
-        </h3>
-        <p className="text-gray-300 mt-2">
-          ZING TOKEN is built on the Solana blockchain.
-        </p>
-      </div>
-
-      <div className="bg-gray-900 border border-green-500 rounded-xl p-6">
-        <h3 className="text-xl font-bold text-green-400">
-          Where can I buy ZING TOKEN?
-        </h3>
-        <p className="text-gray-300 mt-2">
-          You can buy ZING TOKEN on Jupiter and Raydium.
-        </p>
-      </div>
-
-      <div className="bg-gray-900 border border-green-500 rounded-xl p-6">
-        <h3 className="text-xl font-bold text-green-400">
-          What is the total supply?
-        </h3>
-        <p className="text-gray-300 mt-2">
-          100,000,000 ZTC.
-        </p>
-      </div>
-
-      <div className="bg-gray-900 border border-green-500 rounded-xl p-6">
-        <h3 className="text-xl font-bold text-green-400">
-          Is liquidity locked?
-        </h3>
-        <p className="text-gray-300 mt-2">
-          Yes. Liquidity is secured to strengthen long-term trust.
-        </p>
-      </div>
-
-    </div>
-  </div>
-</section> 
-
+<p className="text-gray-500 mt-10">
+  © 2026 ZING TOKEN. All Rights Reserved.
+</p>
 </footer>
 
     </>
   );
-}
-<section id="contact">
-...
-</section>
+  }    
