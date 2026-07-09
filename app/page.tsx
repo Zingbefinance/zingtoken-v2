@@ -3,7 +3,7 @@
 import AnnouncementBar from "@/components/AnnouncementBar";
 import Transactions from "@/components/Transactions";
 import LiveStats from "@/components/LiveStats";
-import Stats from "@/components/Stats";
+
 import Image from "next/image";
 import Navbar from "../components/Navbar";
 
@@ -141,6 +141,8 @@ The Future of Web3 Finance on Solana
 </section>
 
 <LiveStats />
+
+
 
 
 

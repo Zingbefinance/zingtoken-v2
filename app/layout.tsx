@@ -14,9 +14,67 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "ZING TOKEN",
-  description: "The Future of Web3 Finance on Solana",
+export const metadata = {
+  title: "ZING TOKEN | The Future of Web3 Finance on Solana",
+
+  description:
+    "ZING TOKEN is a next-generation cryptocurrency built on the Solana blockchain. Buy ZING TOKEN, explore ZingSwap, ZingBot Cloud and the future of decentralized finance.",
+
+  keywords: [
+    "ZING TOKEN",
+    "ZING",
+    "Solana",
+    "Crypto",
+    "Web3",
+    "DeFi",
+    "ZingSwap",
+    "ZingBot Cloud",
+    "Blockchain",
+    "Buy ZING TOKEN",
+  ],
+
+  authors: [
+    {
+      name: "ZING TOKEN",
+    },
+  ],
+
+  creator: "ZING TOKEN",
+
+  publisher: "ZING TOKEN",
+
+  metadataBase: new URL("https://zingtoken-v2.vercel.app"),
+
+  openGraph: {
+    title: "ZING TOKEN",
+    description:
+      "The Future of Web3 Finance on Solana",
+
+    url: "https://zingtoken-v2.vercel.app",
+
+    siteName: "ZING TOKEN",
+
+    images: [
+      {
+        url: "/images/logo.png",
+        width: 512,
+        height: 512,
+      },
+    ],
+
+    locale: "en_US",
+
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "ZING TOKEN",
+    description:
+      "The Future of Web3 Finance on Solana",
+
+    images: ["/images/logo.png"],
+  },
 };
 
 export default function RootLayout({
