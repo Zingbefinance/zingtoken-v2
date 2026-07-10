@@ -454,7 +454,7 @@ The Future of Web3 Finance on Solana
   <div className="flex flex-wrap justify-center gap-4 mt-10">
 
     <a
-      href="c:\Users\BeCi Tech\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\67E9F2342270AC29448671E8F9FADB9A216859AE\transfers\2026-28\Écosystème  Zingbé Finance_20260709_113219_0000.pdf"
+      href="https://acrobat.adobe.com/link/spaces/urn:aaid:sc:EU:014ca7a2-35c6-42c9-8af5-5cfe2cd4d5c7"
       target="_blank"
       className="border border-green-500 px-6 py-3 rounded-lg min-w-[220px] text-center hover:bg-green-500 hover:text-black transition"
     >
