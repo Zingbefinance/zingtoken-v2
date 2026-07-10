@@ -21,8 +21,8 @@ export const metadata: Metadata = {
   
     "ZING TOKEN is a next-generation cryptocurrency built on the Solana blockchain. Buy ZING TOKEN, explore ZingSwap, ZingBot Cloud and the future of decentralized finance.",
 verification: {
-  google: "ZU0QiT8LHs6VH........",
-},
+  google: "ZU0QiT8LHs6VH3GeWqXefTq1r7_QdYPWYqGdQH6_qM8",
+  },
   keywords: [
     "ZING TOKEN",
     "ZING",
