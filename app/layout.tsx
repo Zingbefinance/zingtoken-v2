@@ -18,8 +18,11 @@ export const metadata = {
   title: "ZING TOKEN | The Future of Web3 Finance on Solana",
 
   description:
+  
     "ZING TOKEN is a next-generation cryptocurrency built on the Solana blockchain. Buy ZING TOKEN, explore ZingSwap, ZingBot Cloud and the future of decentralized finance.",
-
+verification: {
+  google: "ZU0QiT8LHs6VH........",
+},
   keywords: [
     "ZING TOKEN",
     "ZING",
