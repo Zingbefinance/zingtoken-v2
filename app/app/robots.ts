@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://zingtoken-v2.vercel.app/sitemap.xml",
+    sitemap: "https://www.zingtoken.org/sitemap.xml",
   };
 }
