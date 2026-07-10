@@ -41,7 +41,7 @@ The Future of Web3 Finance on Solana
   Buy ZING TOKEN
 </a>
  <a
-  href="/whitepaper.pdf"
+  href="https://acrobat.adobe.com/link/spaces/urn:aaid:sc:EU:014ca7a2-35c6-42c9-8af5-5cfe2cd4d5c7"
   target="_blank"
   className="mt-4 ml-4 inline-block px-8 py-3 border border-green-500 text-green-400 font-bold rounded-lg hover:bg-green-500 hover:text-black transition"
 >
