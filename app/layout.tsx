@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "ZING TOKEN | The Future of Web3 Finance on Solana",
 
   description:
@@ -46,14 +46,14 @@ verification: {
 
   publisher: "ZING TOKEN",
 
-  metadataBase: new URL("https://zingtoken-v2.vercel.app"),
+  metadataBase: new URL("https://zingtoken.org"),
 
   openGraph: {
     title: "ZING TOKEN",
     description:
       "The Future of Web3 Finance on Solana",
 
-    url: "https://zingtoken-v2.vercel.app",
+    url: "https://zingtoken.org",
 
     siteName: "ZING TOKEN",
 
